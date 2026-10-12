@@ -1,0 +1,14 @@
+'use client';
+import Image from 'next/image';
+import Link from 'next/link';
+import {useRef,useState} from 'react';
+import {ArrowUpRight} from 'lucide-react';
+import {ClassType,Session,dateLabel,timeLabel,localDate} from '@/lib/types';
+import {PhotoCredit} from './photo-credit';
+export function ModalityExplorer({classes,sessions}:{classes:ClassType[];sessions:Session[]}) {
+ const [active,setActive]=useState(0);const buttons=useRef<(HTMLButtonElement|null)[]>([]);
+ const c=classes[active];if(!c)return <p role="status">Las modalidades no están disponibles. <Link href="/reservar" className="underline">Consultar horarios</Link></p>;
+ const kind=c.id==='reformer'?'reformer':c.id==='movilidad'?'mobility':'floor';
+ const next=sessions.find(s=>s.class_type_id===c.id&&s.remaining>0);
+ return <><div className="modality-tabs" role="tablist" aria-label="Explorar modalidades">{classes.map((item,i)=><button key={item.id} ref={el=>{buttons.current[i]=el;}} role="tab" id={`tab-${item.id}`} aria-controls="modality-study" aria-selected={i===active} tabIndex={i===active?0:-1} onClick={()=>setActive(i)} onKeyDown={e=>{if(['ArrowRight','ArrowLeft','Home','End'].includes(e.key)){e.preventDefault();const n=e.key==='Home'?0:e.key==='End'?classes.length-1:(i+(e.key==='ArrowRight'?1:-1)+classes.length)%classes.length;setActive(n);buttons.current[n]?.focus();}}}>{item.name}<span aria-hidden="true">↗</span></button>)}</div><div id="modality-study" role="tabpanel" aria-labelledby={`tab-${c.id}`} tabIndex={0} className={`modality-study study-${kind}`}><figure key={`photo-${kind}`} className="study-photo selection-motion"><div className="study-frame"><Image src={kind==='reformer'?'/images/arco-reformer-detail.jpg':kind==='mobility'?'/images/arco-portrait.jpg':'/images/arco-floor-white.jpg'} alt={kind==='reformer'?'Extensión lateral con resistencia sobre un Reformer':kind==='floor'?'Equilibrio sentado sobre colchoneta lavanda con una pierna y un brazo extendidos':'Retrato ilustrativo con accesorios de Pilates'} fill quality={90} sizes={kind==='floor'?'(min-width: 1440px) 1024px, (min-width: 1024px) 85vw, 100vw':'(min-width: 1024px) 65vw, 100vw'} className="object-cover"/></div><PhotoCredit kind={kind}/></figure><div key={`copy-${c.id}`} className="study-copy selection-motion"><span className="study-label">Modalidad de ejemplo</span><h3>{c.name}</h3><p>{c.description}</p><Link href={`/reservar?modalidad=${c.id}&vista=horarios`} className="text-action">Explorar sus horarios <ArrowUpRight size={18}/></Link></div><div className="availability-baseline"><span>{c.duration_minutes} minutos de práctica</span>{next?<Link href={`/reservar?modalidad=${c.id}&fecha=${localDate(new Date(next.starts_at))}&sesion=${encodeURIComponent(next.id)}&vista=horarios`}>Próxima: {dateLabel(next.starts_at)} · {timeLabel(next.starts_at)} <ArrowUpRight size={16}/></Link>:<span>Sin cupos próximos disponibles</span>}</div></div></>;
+}

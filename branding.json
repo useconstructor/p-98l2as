@@ -1,13 +1,12 @@
 {
-  "primaryColor": "#F5F7F2",
-  "secondaryColor": "#CED8CF",
-  "backgroundColor": "#F5F7F2",
-  "textColor": "#203A32",
-  "accentColor": "#D7EF86",
-  "fontHeading": "Manrope",
+  "primaryColor": "#6C4D85",
+  "secondaryColor": "#D7C8EB",
+  "backgroundColor": "#F5F2FA",
+  "textColor": "#38243F",
+  "accentColor": "#D7C8EB",
+  "fontHeading": "Bodoni Moda",
   "fontBody": "Inter",
-  "borderRadius": "0.5rem",
-  "logoText": "Reservas Pilates",
-  "logoImageUrl": "https://vabacntbfcwhgkjqajcw.supabase.co/storage/v1/object/public/screenshots/projects/P-98L2AS/logo.png",
-  "tone": "trustworthy"
+  "borderRadius": "0.25rem",
+  "logoText": "Arco Pilates",
+  "tone": "elegant"
 }
