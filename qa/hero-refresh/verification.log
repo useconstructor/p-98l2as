@@ -1,0 +1,127 @@
+desktop: decoded sharp hero at >=2x rendered crop; no overflow
+desktop: homepage CTA reaches live booking availability
+desktop: required name and invalid email rejected with focused field
+desktop: reduced motion respected
+desktop: Turso booking confirmed, HttpOnly local receipt and same reference restored on reload
+desktop: server idempotency, duplicate protection, field validation and origin enforcement
+desktop: empty date state and recovery work
+desktop: test booking cleanup scoped to unique QA email and confirmed reference
+tablet: decoded sharp hero at >=2x rendered crop; no overflow; 360px frame
+tablet: homepage CTA reaches live booking availability
+tablet: required name and invalid email rejected with focused field
+tablet: reduced motion respected
+tablet: Turso booking confirmed, HttpOnly local receipt and same reference restored on reload
+tablet: server idempotency, duplicate protection, field validation and origin enforcement
+tablet: empty date state and recovery work
+tablet: test booking cleanup scoped to unique QA email and confirmed reference
+mobile: decoded sharp hero at >=2x rendered crop; no overflow
+Mobile menu opens, focuses first link and Escape restores toggle
+mobile: homepage CTA reaches live booking availability
+mobile: required name and invalid email rejected with focused field
+mobile: reduced motion respected
+mobile: Turso booking confirmed, HttpOnly local receipt and same reference restored on reload
+mobile: server idempotency, duplicate protection, field validation and origin enforcement
+mobile: empty date state and recovery work
+mobile: test booking cleanup scoped to unique QA email and confirmed reference
+[
+  {
+    "name": "desktop: decoded sharp hero at >=2x rendered crop; no overflow",
+    "passed": true
+  },
+  {
+    "name": "desktop: homepage CTA reaches live booking availability",
+    "passed": true
+  },
+  {
+    "name": "desktop: required name and invalid email rejected with focused field",
+    "passed": true
+  },
+  {
+    "name": "desktop: reduced motion respected",
+    "passed": true
+  },
+  {
+    "name": "desktop: Turso booking confirmed, HttpOnly local receipt and same reference restored on reload",
+    "passed": true
+  },
+  {
+    "name": "desktop: server idempotency, duplicate protection, field validation and origin enforcement",
+    "passed": true
+  },
+  {
+    "name": "desktop: empty date state and recovery work",
+    "passed": true
+  },
+  {
+    "name": "desktop: test booking cleanup scoped to unique QA email and confirmed reference",
+    "passed": true
+  },
+  {
+    "name": "tablet: decoded sharp hero at >=2x rendered crop; no overflow; 360px frame",
+    "passed": true
+  },
+  {
+    "name": "tablet: homepage CTA reaches live booking availability",
+    "passed": true
+  },
+  {
+    "name": "tablet: required name and invalid email rejected with focused field",
+    "passed": true
+  },
+  {
+    "name": "tablet: reduced motion respected",
+    "passed": true
+  },
+  {
+    "name": "tablet: Turso booking confirmed, HttpOnly local receipt and same reference restored on reload",
+    "passed": true
+  },
+  {
+    "name": "tablet: server idempotency, duplicate protection, field validation and origin enforcement",
+    "passed": true
+  },
+  {
+    "name": "tablet: empty date state and recovery work",
+    "passed": true
+  },
+  {
+    "name": "tablet: test booking cleanup scoped to unique QA email and confirmed reference",
+    "passed": true
+  },
+  {
+    "name": "mobile: decoded sharp hero at >=2x rendered crop; no overflow",
+    "passed": true
+  },
+  {
+    "name": "Mobile menu opens, focuses first link and Escape restores toggle",
+    "passed": true
+  },
+  {
+    "name": "mobile: homepage CTA reaches live booking availability",
+    "passed": true
+  },
+  {
+    "name": "mobile: required name and invalid email rejected with focused field",
+    "passed": true
+  },
+  {
+    "name": "mobile: reduced motion respected",
+    "passed": true
+  },
+  {
+    "name": "mobile: Turso booking confirmed, HttpOnly local receipt and same reference restored on reload",
+    "passed": true
+  },
+  {
+    "name": "mobile: server idempotency, duplicate protection, field validation and origin enforcement",
+    "passed": true
+  },
+  {
+    "name": "mobile: empty date state and recovery work",
+    "passed": true
+  },
+  {
+    "name": "mobile: test booking cleanup scoped to unique QA email and confirmed reference",
+    "passed": true
+  }
+]

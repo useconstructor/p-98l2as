@@ -1,0 +1,41 @@
+[
+  {
+    "device": "desktop",
+    "currentSrc": "http://127.0.0.1:3100/_next/image?url=%2Fimages%2Fpilates-hero-reformer.jpg&w=1920&q=90",
+    "sizes": "(min-width: 1328px) 624px, (min-width: 1024px) calc((100vw - 136px) * 0.53), (min-width: 768px) calc(100vw - 80px), calc(100vw - 48px)",
+    "renderedWidth": 623.265625,
+    "renderedHeight": 515,
+    "objectPosition": "43% 50%",
+    "dpr": 2,
+    "servedWidth": 1920,
+    "servedHeight": 1584,
+    "effectiveScale": 3.0757281553398057,
+    "bytes": 549372
+  },
+  {
+    "device": "tablet",
+    "currentSrc": "http://127.0.0.1:3100/images/pilates-hero-reformer-wide.jpg",
+    "sizes": "(min-width: 1328px) 624px, (min-width: 1024px) calc((100vw - 136px) * 0.53), (min-width: 768px) calc(100vw - 80px), calc(100vw - 48px)",
+    "renderedWidth": 688,
+    "renderedHeight": 360,
+    "objectPosition": "43% 30%",
+    "dpr": 2,
+    "servedWidth": 2400,
+    "servedHeight": 1600,
+    "effectiveScale": 3.488372093023256,
+    "bytes": 1089803
+  },
+  {
+    "device": "mobile",
+    "currentSrc": "http://127.0.0.1:3100/_next/image?url=%2Fimages%2Fpilates-hero-reformer.jpg&w=750&q=90",
+    "sizes": "(min-width: 1328px) 624px, (min-width: 1024px) calc((100vw - 136px) * 0.53), (min-width: 768px) calc(100vw - 80px), calc(100vw - 48px)",
+    "renderedWidth": 342,
+    "renderedHeight": 215,
+    "objectPosition": "43% 35%",
+    "dpr": 2,
+    "servedWidth": 750,
+    "servedHeight": 619,
+    "effectiveScale": 2.192982456140351,
+    "bytes": 95055
+  }
+]

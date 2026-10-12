@@ -1,0 +1,125 @@
+{
+  "verified": true,
+  "checks": [
+    {
+      "name": "desktop: decoded sharp hero at >=2x rendered crop; no overflow",
+      "passed": true
+    },
+    {
+      "name": "desktop: homepage CTA reaches live booking availability",
+      "passed": true
+    },
+    {
+      "name": "desktop: required name and invalid email rejected with focused field",
+      "passed": true
+    },
+    {
+      "name": "desktop: reduced motion respected",
+      "passed": true
+    },
+    {
+      "name": "desktop: Turso booking confirmed, HttpOnly local receipt and same reference restored on reload",
+      "passed": true
+    },
+    {
+      "name": "desktop: server idempotency, duplicate protection, field validation and origin enforcement",
+      "passed": true
+    },
+    {
+      "name": "desktop: empty date state and recovery work",
+      "passed": true
+    },
+    {
+      "name": "desktop: test booking cleanup scoped to unique QA email and confirmed reference",
+      "passed": true
+    },
+    {
+      "name": "tablet: decoded sharp hero at >=2x rendered crop; no overflow; 360px frame",
+      "passed": true
+    },
+    {
+      "name": "tablet: homepage CTA reaches live booking availability",
+      "passed": true
+    },
+    {
+      "name": "tablet: required name and invalid email rejected with focused field",
+      "passed": true
+    },
+    {
+      "name": "tablet: reduced motion respected",
+      "passed": true
+    },
+    {
+      "name": "tablet: Turso booking confirmed, HttpOnly local receipt and same reference restored on reload",
+      "passed": true
+    },
+    {
+      "name": "tablet: server idempotency, duplicate protection, field validation and origin enforcement",
+      "passed": true
+    },
+    {
+      "name": "tablet: empty date state and recovery work",
+      "passed": true
+    },
+    {
+      "name": "tablet: test booking cleanup scoped to unique QA email and confirmed reference",
+      "passed": true
+    },
+    {
+      "name": "mobile: decoded sharp hero at >=2x rendered crop; no overflow",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu opens, focuses first link and Escape restores toggle",
+      "passed": true
+    },
+    {
+      "name": "mobile: homepage CTA reaches live booking availability",
+      "passed": true
+    },
+    {
+      "name": "mobile: required name and invalid email rejected with focused field",
+      "passed": true
+    },
+    {
+      "name": "mobile: reduced motion respected",
+      "passed": true
+    },
+    {
+      "name": "mobile: Turso booking confirmed, HttpOnly local receipt and same reference restored on reload",
+      "passed": true
+    },
+    {
+      "name": "mobile: server idempotency, duplicate protection, field validation and origin enforcement",
+      "passed": true
+    },
+    {
+      "name": "mobile: empty date state and recovery work",
+      "passed": true
+    },
+    {
+      "name": "mobile: test booking cleanup scoped to unique QA email and confirmed reference",
+      "passed": true
+    }
+  ],
+  "images": [
+    {
+      "name": "desktop DPR2",
+      "file": "/tmp/app/qa/hero-refresh/desktop-dpr2.png"
+    },
+    {
+      "name": "tablet DPR2",
+      "file": "/tmp/app/qa/hero-refresh/tablet-dpr2.png"
+    },
+    {
+      "name": "mobile DPR2",
+      "file": "/tmp/app/qa/hero-refresh/mobile-dpr2.png"
+    }
+  ],
+  "pending": [
+    {
+      "name": "Production HTTPS direct and actual Constructor iframe submit/reload",
+      "reason": "Host publishes after independent acceptance; HTTPS and iframe are unavailable locally. Verify Secure, HttpOnly, SameSite=None and Partitioned receipt cookie in that environment."
+    }
+  ]
+}
