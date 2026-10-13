@@ -1,15 +1,13 @@
-# Arco illustrative photographs
+# Arco Pilates illustrative photography
 
-Verified via Wikimedia Commons imageinfo API; complete metadata saved in external QA evidence. All current photographs are CC BY-SA 4.0, with author, source and licence links displayed outside image bounds. Images illustrate a fictional studio; people are not represented as Arco staff. Responsive display crops are adaptations under the same licence.
+Arco Pilates is a fictional demonstration brand. Photography is illustrative and does not identify actual premises, staff or services.
 
-- arco-portrait.jpg: Cristian.mirandapezo, [Instructora de Pilates.jpg](https://commons.wikimedia.org/wiki/File:Instructora_de_Pilates.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-- arco-floor-white.jpg: Cristian.mirandapezo, [Instructora Pilates.jpg](https://commons.wikimedia.org/wiki/File:Instructora_Pilates.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-- arco-band-white.jpg: Cristian.mirandapezo, [Ejercicio con Flex-band en Pilates.jpg](https://commons.wikimedia.org/wiki/File:Ejercicio_con_Flex-band_en_Pilates.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-- arco-reformer-detail.jpg: derivative regenerated from the verified 6844 × 4563 full-resolution original (3000px wide, JPEG quality 95); hero bypasses thumbnail optimization.
-- arco-reformer.jpg (retained legacy derivative): Payam.nazeri96, [Pilates reformer pic.jpg](https://commons.wikimedia.org/wiki/File:Pilates_reformer_pic.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+The seven reference-hd-*.jpg files are independent Azure GPT Image photo-only masters supplied by the host from authorized reference crops, with no raster UI or pixel enlargement. Native dimensions: equipment and hero portraits 1536 × 2048; mat, Reformer and mobility 2048 × 1536; wide studio 3072 × 1152. All seven are referenced by live components.
 
-Legacy image files are retained but are not used by the current public experience.
+The detailed equipment master replaces the obsolete 366 × 541 blueprint crop. Its unchanged desktop cover frame uses about 1155 × 2048 native pixels and supplies about 2.42× density. Per-asset served dimensions and crop-aware density are recorded by the executed verifier.
 
-Current left hero: arco-portrait-{660,990,1320}.jpg are native-detail crops of the verified 2081 × 2601 original Instructora de Pilates.jpg (Cristian.mirandapezo, CC BY-SA 4.0). Crop: x100/y510, 1880 × 1595, resized down only, with restrained output sharpening and 98-quality 4:4:4 encoding; delivered as responsive JPEGs without a second optimizer pass. Both downloaded originals were decoded: seated portrait 2081 × 2601 and Reformer 6844 × 4563. Source API metadata, original bytes, crop parameters and dimensions are retained in ignored QA evidence.
+Known reference differences in supplied masters: left hero has a free overhead hand, right hero sitter is higher and lacks equipment at the right, and Reformer gaze is bowed. These require new photo-only variants; CSS crops cannot change the poses. Mobile Reformer retains full-source contain framing to preserve head, hands and rear feet pending a portrait-composed variant.
 
-Review-selected left hero: arco-movement-{660,990,1320}.jpg now use the optically sharper alternate frame **Instructora Pilates.jpg**, Cristian.mirandapezo, CC BY-SA 4.0, verified native dimensions 3456 × 2304. Native crop x700/y100, 2200 × 1867; downsampled only, JPEG quality 97, 4:4:4. The portrait study deliberately introduces the seated balance explored in the later full-body Suelo composition; its crop and the full study are related views of the same movement. Its complete source attribution is displayed under the hero. The old softer portrait remains available only for the separate mobility study, and legacy hero derivatives are retained but no longer served.
+The full blueprint stays outside the repository. All text and controls are HTML.
+
+Display type: Cormorant Garamond Light and Light Italic, Google Fonts, SIL Open Font License. Arco Display is an OFL derivative preserving the ss01 stems and advance with a thin curved crossbar. Licences remain in public/fonts.
